@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Martín López Fotografía</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Contacto</h1>
+
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <p>
+            Si querés consultar disponibilidad, solicitar un presupuesto o conocer más
+            detalles sobre alguno de los servicios, podés completar el siguiente formulario.
+        </p>
+
+        <form>
+
+            <label for="nombre">Nombre y apellido:</label><br>
+            <input type="text" id="nombre" name="nombre"><br><br>
+
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="telefono">Teléfono:</label><br>
+            <input type="tel" id="telefono" name="telefono"><br><br>
+
+            <label for="servicio">Servicio de interés:</label><br>
+
+            <select id="servicio" name="servicio">
+                <option>Fotografía de eventos</option>
+                <option>Retratos</option>
+                <option>Fotografía de productos</option>
+                <option>Contenido para emprendimientos</option>
+                <option>Otro</option>
+            </select>
+
+            <br><br>
+
+            <label for="fecha">Fecha aproximada:</label><br>
+            <input type="date" id="fecha" name="fecha">
+
+            <br><br>
+
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="6" cols="40"></textarea>
+
+            <br><br>
+
+            <input type="submit" value="Enviar consulta">
+
+        </form>
+
+    </main>
+
+</body>
+
+</html>
